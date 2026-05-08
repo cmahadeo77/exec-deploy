@@ -1,0 +1,30 @@
+{
+  "name": "exec-deploy",
+  "version": "1.0.0",
+  "description": "AI-powered resume optimizer and opportunity distribution — payments & fintech executives (contract + FTE)",
+  "main": "index.js",
+  "bin": {
+    "exec-deploy": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "search": "node index.js search",
+    "tailor": "node index.js tailor"
+  },
+  "dependencies": {
+    "anthropic": "^0.20.0",
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.0.0",
+    "docx": "^8.5.0",
+    "open": "^8.4.2",
+    "ora": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["payments", "fintech", "resume", "job-search", "ai-agent"],
+  "author": "Chris Mahadeo",
+  "license": "MIT"
+}

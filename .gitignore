@@ -1,0 +1,7 @@
+node_modules/
+.env
+logs/applications.json
+logs/response_events.json
+logs/search_results.json
+*.docx
+.DS_Store
